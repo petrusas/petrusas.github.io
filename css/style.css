@@ -10,6 +10,11 @@ body {
     border: 1px solid #0f0;
 }
 
+.article {
+    color:rgb(255, 255, 255);
+    font-family: 'Courier New', monospace;
+}
+
 .prompt {
     color: #0f0;
     display: inline;
@@ -38,4 +43,25 @@ a:hover {
 /* Define a different color for active links (when clicked) */
 a:active {
     color: blue;
+}
+
+/* Add this CSS to your existing style.css file or in a <style> element in your HTML file */
+.terminal {
+    white-space: nowrap;
+}
+
+.terminal div {
+    display: inline;
+}
+
+h2 {
+    color: rgb(207, 174, 26);
+}
+
+em {
+    color: rgb(213, 252, 43);
+}
+
+strong {
+    color: rgb(129, 50, 255);
 }
