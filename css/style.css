@@ -19,3 +19,23 @@ body {
     color: #0f0;
     display: inline;
 }
+
+a {
+    color: rgb(255, 0, 255);
+    text-decoration: none; /* Optionally, remove underlines from links */
+}
+
+/* Define a different color for visited links */
+a:visited {
+    color: rgb(116, 0, 139);
+}
+
+/* Define a different color for links when hovered over */
+a:hover {
+    color: orange;
+}
+
+/* Define a different color for active links (when clicked) */
+a:active {
+    color: blue;
+}
